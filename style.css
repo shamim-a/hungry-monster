@@ -37,12 +37,16 @@ body{
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
 } */
+#meals-container{
+    margin-top: auto;
+}
 .food-items{
     background-color: #ebebeb;
     border-radius: 15px;
     padding-top: 10px;
     width: auto;
     margin: 8px 16px;
+    cursor: pointer;
     
 }
 
@@ -56,8 +60,22 @@ body{
     text-decoration: none;
     color: #140000;
 }
-a:hover {
-    color: #3a063b;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+
+#ingredient li {
+    font-weight: normal;
+    list-style: none;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    color: #6C6C6C;
+}
+
+#ingredient li::after {
+    content: '';
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: url(image/checkmark.png) no-repeat center center / contain;
+}
