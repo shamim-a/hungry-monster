@@ -1,9 +1,10 @@
-    // take input action here
+// take input action here
 const inputMeal = document.getElementById('meal-box');
 document.getElementById('search').addEventListener('click', () => {
     mealDispay(inputMeal.value);
 })
 //meal display API
+
 const mealDispay = mealName=>{
     fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${mealName}`)
     .then(res => res.json())

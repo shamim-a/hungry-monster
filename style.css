@@ -3,7 +3,9 @@ body{
     padding: 0;
     background-color: #f8f3ec;
 }
-/* nevbar section style */
+
+/*--- nevbar section style ---*/
+
 .has-search .form-control {
     padding-left: 2.375rem;
 }
@@ -19,10 +21,6 @@ body{
     pointer-events: none;
     color: #999999;
 }
-#no-found {
-    font-size: 25px;
-    color:red;
-}
 .btn-color{
     background-color: #ff8b61;
     color: #ffffff;
@@ -31,12 +29,14 @@ body{
     color: black;
     margin-left: 20px;
 }
-/* meal-Info Section style here */
-/* #meals-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-} */
+
+/* ---search section style ---*/
+
+#no-found {
+    font-size: 25px;
+    color:red;
+}
+
 #meals-container{
     margin-top: auto;
 }
@@ -56,10 +56,8 @@ body{
     border-radius: 12px;
     padding: 10px;
 }
-.food-details{
-    text-decoration: none;
-    color: #140000;
-}
+
+/*--- Meal detais style ---*/
 
 #ingredient li {
     font-weight: normal;
