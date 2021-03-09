@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f3ec;
+}
+/* nevbar section style */
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #999999;
+}
+#no-found {
+    font-size: 25px;
+    color:red;
+}
+.btn-color{
+    background-color: #ff8b61;
+    color: #ffffff;
+}
+#menu li a{
+    color: black;
+    margin-left: 20px;
+}
+/* meal-Info Section style here */
+/* #meals-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+} */
+.food-items{
+    background-color: #ebebeb;
+    border-radius: 15px;
+    padding-top: 10px;
+    width: auto;
+    margin: 8px 16px;
+    
+}
+
+.food-items img{
+    height: 220px;
+    width: auto;
+    border-radius: 12px;
+    padding: 10px;
+}
+.food-details{
+    text-decoration: none;
+    color: #140000;
+}
+a:hover {
+    color: #3a063b;
+    background-color: transparent;
+    text-decoration: underline;
+  }
